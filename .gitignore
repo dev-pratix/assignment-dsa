@@ -1,0 +1,16 @@
+# STS / Eclipse
+.project
+.classpath
+.settings/
+bin/
+target/
+
+# Java
+*.class
+*.jar
+*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
