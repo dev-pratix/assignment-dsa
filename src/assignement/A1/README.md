@@ -14,6 +14,15 @@ find Simple Interest.
 9. To find Armstrong Number between two given number.
 
 
+my custom exception : 
+
+class CustomExc extends Exception {
+	public NegativeInputException(String msg) {
+		super(msg);
+	}
+}
+
+
 This is the generic template i am used to write  :)
 public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
