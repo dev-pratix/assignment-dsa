@@ -12,3 +12,22 @@ find Simple Interest.
 7. To calculate Fibonacci Series up to n numbers.
 8. To find out whether the given String is Palindrome or not.
 9. To find Armstrong Number between two given number.
+
+
+This is the generic template i am used to write  :)
+public static void main(String[] args) {
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Program Started");
+			while (true) {
+				
+			}
+
+		} catch (InputMismatchException ip) {
+			System.out.println("Exiting the Program");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			System.out.println("Program Ended");
+		}
+
+	}

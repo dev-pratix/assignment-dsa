@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 public class EvenNumber {
 	public static boolean isEven(int number) {
+		if (number < 0)
+			number = number * -1;
+
 		return number % 2 == 0;
 	}
 
