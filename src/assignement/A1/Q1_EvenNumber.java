@@ -8,7 +8,7 @@ import java.util.Scanner;
 	input from the user.
  */
 
-public class EvenNumber {
+public class Q1_EvenNumber {
 	public static boolean isEven(int number) {
 		if (number < 0)
 			number = number * -1;

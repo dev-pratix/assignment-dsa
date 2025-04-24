@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 //2. Take name as input and print a greeting message for that particular name.
 
-public class GreetingMsg {
+public class Q2_GreetingMsg {
 
 	public static void greetYou(String name) {
 		if (name == null || name.isEmpty()) {
